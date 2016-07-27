@@ -2,7 +2,7 @@ var express = require('express')
 
 var app = express ()
 
-app.get ('/' , function (res,req){
+app.get ('/' , function (req,res){
   res.send('<img src = "http://nme.assets.ipccdn.co.uk/images/081022_114642_TheCure03.article_x4.jpg">')
 })
 
